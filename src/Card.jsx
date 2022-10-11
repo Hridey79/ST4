@@ -21,7 +21,7 @@ export default function RecipeReviewCard() {
               {item.b}
             </Avatar>
           }
-          titleTypographyProps={{variant:'h3' }}
+          titleTypographyProps={{variant:'h4' }}
           title={item.a}
         />
         <CardContent>

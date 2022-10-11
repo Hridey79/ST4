@@ -1,14 +1,15 @@
 .Record{
     background-color: #48BB78;
-    position:absolute;
+    /* position:absolute; */
     height: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     overflow: scroll;
+    /* margin-left: 7%; */
 }
 
 .heading_1{
@@ -21,7 +22,14 @@
     z-index: 20000000; */
 }
 .parent{
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #48BB78;
     width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
 }

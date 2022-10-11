@@ -27,16 +27,16 @@ function Form() {
             <h1 className='heading'>Customer Review Form</h1>
             <div className='Name'>
                 <label>Product Name</label><br></br>
-                <input className="name_input" type='text' onChange={(e)=>setname(e.target.value)} placeholder='Name'></input>
+                <input className="name_input" type='text' onChange={(e)=>setname(e.target.value)} required placeholder='Name'></input>
             </div>
             <div className='Rating'>
                 <label>Rating</label><br></br>
-                <input className="rating_input" type='number' onChange={(e)=>setrating(e.target.value)} placeholder='Rating' max={5}></input>
+                <input className="rating_input" type='number' onChange={(e)=>setrating(e.target.value)} required placeholder='Rating' max={5}></input>
             </div>
             <div className='Review'>
                 <label>Review</label><br></br>         
                 {/* <input className="review_input" type='text' placeholder='Review'></input> */}
-                <textarea className='review_input' type='text' onChange={(e)=>setreview(e.target.value)} placeholder='Review' cols={50} rows={10}></textarea>
+                <textarea className='review_input' type='text' onChange={(e)=>setreview(e.target.value)} required placeholder='Review' cols={50} rows={10}></textarea>
             </div>
             <div className='button'>
                 <Link to='/records'>

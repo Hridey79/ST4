@@ -9,8 +9,10 @@
 
 .header{
     border-bottom: 2px solid black;
+    margin: 5px;
 }
 
 .card__display{
     display: flex;
+    flex-wrap: wrap;
 }
